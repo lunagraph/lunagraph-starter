@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "scan": "lunagraph scan --pattern 'components/**/*.tsx' --pattern 'app/**/page.tsx'",
+    "scan": "lunagraph scan --pattern 'components/**/*.tsx' --pattern 'app/**/page.tsx' --pattern '.lunagraph/canvases/*/components/*.tsx'",
     "generate-snapshots": "lunagraph generate-snapshots",
     "prebuild": "pnpm scan && pnpm generate-snapshots",
     "lunagraph:server": "lunagraph-dev",
