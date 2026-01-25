@@ -17,6 +17,10 @@
 /.next/
 /out/
 
+# lunagraph
+.lunagraph/drafts/
+.lunagraph/canvases/
+
 # production
 /build
 
