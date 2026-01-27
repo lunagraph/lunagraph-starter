@@ -6,7 +6,7 @@ import * as lunagraph from '../../.lunagraph/components';
 import { snapshots, internalComponents } from '../../.lunagraph/snapshots';
 import * as LucideIcons from "lucide-react";
 
-export default function Editor() {
+export default function EditorReadOnly() {
   return (
     <LunagraphEditor
       {...lunagraph}
@@ -20,6 +20,7 @@ export default function Editor() {
           propsSchema: LUCIDE_PROPS_SCHEMA,
         }
       }}
+      readOnly
     />
   )
 }
