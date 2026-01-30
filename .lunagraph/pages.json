@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-01-30T01:43:50.882Z",
+  "pages": [
+    {
+      "id": "canvas-1",
+      "name": "Canvas 1",
+      "elements": [
+        {
+          "id": "component-D5WrJEjM7pu-nzfEdLknu",
+          "type": "component",
+          "componentName": "Badge",
+          "props": {},
+          "styles": {
+            "width": "fit-content",
+            "height": "fit-content"
+          },
+          "children": [],
+          "canvasPosition": {
+            "x": -1069.957750434117,
+            "y": 1477.309669240188
+          }
+        }
+      ]
+    }
+  ]
+}
